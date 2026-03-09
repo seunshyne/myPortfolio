@@ -1,0 +1,32 @@
+:root {
+  --bg-900: #03131b;
+  --bg-800: #072533;
+  --bg-700: #0a2f40;
+  --text-main: #d7e7ef;
+  --text-soft: #89a6b6;
+  --text-muted: #6f8795;
+  --line: rgba(68, 111, 133, 0.35);
+  --line-soft: rgba(68, 111, 133, 0.18);
+  --aqua: #1ed3ff;
+  --aqua-strong: #00b9f4;
+  --card: rgba(6, 23, 33, 0.76);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text-main);
+  background: var(--bg-900);
+  line-height: 1.6;
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
