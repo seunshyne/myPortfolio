@@ -9,7 +9,7 @@
       <nav class="menu" aria-label="Primary">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/projects/prime-wallet">Experience</RouterLink>
+        <RouterLink to="/experience">Experience</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <a href="#contact">Contact</a>
       </nav>

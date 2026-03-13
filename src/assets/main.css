@@ -766,6 +766,23 @@ h2 {
   padding: 20px;
 }
 
+.experience-page .experience-list {
+  margin-top: 12px;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+  color: #b4ccda;
+}
+
+.experience-page .experience-list li {
+  line-height: 1.5;
+}
+
+.experience-page .experience-stack {
+  margin-top: 12px;
+  color: #c7deea;
+}
+
 .arch-grid {
   margin-top: 14px;
   display: grid;
