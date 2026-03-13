@@ -156,6 +156,12 @@ a {
   background: rgba(9, 31, 44, 0.64);
   font-weight: 700;
   font-size: 0.9rem;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    color 0.22s ease;
 }
 
 .hire-btn {
@@ -169,6 +175,27 @@ a {
   font-size: 0.9rem;
   background: linear-gradient(135deg, #1ed3ff 0%, #70edff 100%);
   box-shadow: 0 10px 25px rgba(0, 181, 222, 0.24);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    filter 0.22s ease;
+}
+
+.cv-btn:hover,
+.hire-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.cv-btn:hover {
+  border-color: #2cdfff;
+  box-shadow:
+    0 12px 26px rgba(3, 18, 26, 0.45),
+    0 0 0 1px rgba(44, 223, 255, 0.2);
+}
+
+.hire-btn:hover {
+  box-shadow: 0 14px 30px rgba(0, 181, 222, 0.32);
+  filter: saturate(1.05);
 }
 
 .hero {
@@ -431,12 +458,26 @@ h2 {
   font-size: 0.95rem;
   padding: 0.72rem 1.3rem;
   cursor: pointer;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    color 0.22s ease;
 }
 
 .filter-pill.active {
   background: linear-gradient(135deg, #19d4ff 0%, #69ecff 100%);
   color: #04131d;
   border-color: transparent;
+}
+
+.filter-pill:hover {
+  transform: translateY(-4px) scale(1.03);
+  border-color: #2cdfff;
+  box-shadow:
+    0 12px 26px rgba(3, 18, 26, 0.45),
+    0 0 0 1px rgba(44, 223, 255, 0.2);
 }
 
 .project-grid {
@@ -448,6 +489,10 @@ h2 {
 
 .project-card {
   border-radius: 16px;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
 .project-grid.large {
@@ -459,6 +504,14 @@ h2 {
   border: 1px solid var(--line);
   background: rgba(5, 23, 35, 0.88);
   overflow: hidden;
+}
+
+.project-card.pro:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: #2cdfff;
+  box-shadow:
+    0 18px 40px rgba(4, 23, 34, 0.55),
+    0 0 0 1px rgba(44, 223, 255, 0.25);
 }
 
 .project-media {
