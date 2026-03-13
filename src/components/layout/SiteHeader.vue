@@ -16,7 +16,7 @@
 
       <div class="nav-actions">
         <a class="cv-btn" href="#" download>Download CV</a>
-        <a class="hire-btn" href="#contact">Hire Me</a>
+        <a class="hire-btn" href="/#contact">Hire Me</a>
       </div>
     </div>
   </header>

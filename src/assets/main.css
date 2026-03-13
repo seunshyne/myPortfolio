@@ -887,6 +887,10 @@ h2 {
   gap: 24px;
 }
 
+.footer-intro {
+  max-width: 520px;
+}
+
 .brand-line {
   display: flex;
   align-items: center;
@@ -897,6 +901,27 @@ h2 {
 
 .site-footer p {
   color: var(--text-muted);
+}
+
+.footer-meta {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: var(--text-muted);
+}
+
+.footer-meta a {
+  color: #d9f2ff;
+  font-weight: 700;
+}
+
+.footer-actions {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .footer-links {
@@ -1001,6 +1026,10 @@ h2 {
   }
 
   .footer-links {
+    justify-content: flex-start;
+  }
+
+  .footer-actions {
     justify-content: flex-start;
   }
 }
