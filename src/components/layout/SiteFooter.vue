@@ -19,6 +19,9 @@
       </div>
       <div class="footer-right">
         <div class="footer-actions">
+          <a class="cv-btn" href="/OYEBANJI_SEUN%20SE.CV.pdf" download="Oluwaseun_Oyebanji_CV.pdf"
+            >Download CV</a
+          >
           <a
             class="cv-btn"
             href="https://github.com/seunshyne"
