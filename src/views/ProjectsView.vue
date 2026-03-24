@@ -17,8 +17,7 @@ const visibleProjects = computed(() => {
       <p class="section-kicker">Portfolio</p>
       <h2>Featured Projects</h2>
       <p class="projects-sub">
-        A selection of work focusing on backend architecture, DevOps maturity, and full-stack
-        delivery.
+        A selection of work built around clean architecture, modern web technologies, and full stack engineering
       </p>
     </div>
 
