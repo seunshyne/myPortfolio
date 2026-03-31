@@ -9,7 +9,7 @@
           Deployment
         </h1>
         <p class="lede">
-          I build modern web applications using Vue.js, PHP and Laravel, with
+          I build modern web applications using React, Vue.js, PHP and Laravel, with
           experience deploying and managing production systems on cloud servers.
         </p>
         <div class="hero-actions">
