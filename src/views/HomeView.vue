@@ -5,7 +5,7 @@
         <p class="hero-greet">Hi, I'm Oluwaseun Oyebanji.</p>
         <p class="availability">Open to new opportunities</p>
         <h1>
-          Full Stack Developer specializing in Vue.js, PHP, Laravel and Cloud
+          Full Stack Developer specializing in React,Vue.js, PHP, Laravel and Cloud
           Deployment
         </h1>
         <p class="lede">
