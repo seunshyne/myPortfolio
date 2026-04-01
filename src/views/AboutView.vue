@@ -4,7 +4,7 @@
       <p class="section-kicker">About</p>
       <h2>Building Reliable Web Applications</h2>
       <p class="projects-sub">
-        I am a Full Stack Software Engineer focused on building secure and
+        I'm a Full Stack Software Engineer focused on building secure and
         scalable web applications using  React, Vue.js, Laravel, and modern cloud
         infrastructure. I enjoy designing systems that are structured,
         maintainable, and ready for production deployment.
