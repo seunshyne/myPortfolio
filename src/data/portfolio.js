@@ -13,7 +13,34 @@ export const projects = [
     mediaTone: 'media-one',
     details: {
       intro:
-        'A production-ready wallet platform for user onboarding, account balance management, and secure transaction flows.',
+        'A production ready wallet platform for user onboarding, account balance management, and secure transaction flows.',
+      slides: [
+        {
+          image: '/images/projects/primewallet/primewallet-homepage.png',
+          alt: 'Prime Wallet homepage interface',
+          caption: 'Landing page introducing the wallet platform and main user journey.',
+        },
+        {
+          image: '/images/projects/primewallet/primewallet-dashboard.png',
+          alt: 'Prime Wallet dashboard screen',
+          caption: 'Dashboard overview with wallet summary and key account activity.',
+        },
+        {
+          image: '/images/projects/primewallet/primewallet-fundwallet.png',
+          alt: 'Prime Wallet fund wallet screen',
+          caption: 'Wallet funding flow designed to keep deposits simple and clear.',
+        },
+        {
+          image: '/images/projects/primewallet/primewallet-send.png',
+          alt: 'Prime Wallet send money screen',
+          caption: 'Secure transfer screen for sending funds with guided form input.',
+        },
+        {
+          image: '/images/projects/primewallet/primewallet-transactions.png',
+          alt: 'Prime Wallet transactions history screen',
+          caption: 'Transaction history view for reviewing recent wallet activity.',
+        },
+      ],
       problem: [
         'Many users need a simple way to manage digital wallet transactions with strong authentication and reliable audit trails.',
         'The core challenge was building a secure backend and a clean frontend experience that can scale with increasing traffic.',
@@ -70,6 +97,7 @@ export const projects = [
     details: {
       intro:
         'A backend-first hospital system focused on secure medical records, appointment workflows, and billing operations.',
+      slides: [],
       problem: [
         'Manual patient records and fragmented scheduling made it difficult for staff to maintain consistency and speed.',
         'The system needed role-based access so doctors, nurses, and admin teams could work safely in one platform.',
@@ -125,6 +153,7 @@ export const projects = [
     details: {
       intro:
         'An analytics dashboard for financial operations with real-time summaries, secured APIs, and report generation.',
+      slides: [],
       problem: [
         'Finance teams required a single dashboard to monitor account movement, transaction summaries, and alerts.',
         'The challenge was presenting high-volume records clearly while keeping backend response times stable.',

@@ -676,6 +676,129 @@ h2 {
   max-width: 34ch;
 }
 
+.project-gallery {
+  margin-top: 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(25, 114, 143, 0.32), transparent 35%),
+    rgba(7, 27, 39, 0.9);
+}
+
+.gallery-frame {
+  position: relative;
+  min-height: 420px;
+  background:
+    linear-gradient(180deg, rgba(12, 37, 48, 0.35), rgba(4, 18, 28, 0.75)),
+    #071b27;
+}
+
+.gallery-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  object-fit: cover;
+}
+
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(114, 177, 201, 0.45);
+  border-radius: 999px;
+  background: rgba(4, 18, 28, 0.72);
+  color: #e9f7ff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.gallery-nav:hover {
+  background: rgba(23, 89, 113, 0.92);
+  border-color: rgba(121, 226, 255, 0.72);
+}
+
+.gallery-nav.prev {
+  left: 18px;
+}
+
+.gallery-nav.next {
+  right: 18px;
+}
+
+.gallery-meta {
+  padding: 18px 20px 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.gallery-label {
+  margin-top: 0;
+  color: #20daff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.gallery-caption {
+  margin-top: 8px;
+  color: #d4e6f0;
+  font-size: 1.05rem;
+}
+
+.gallery-count {
+  flex-shrink: 0;
+  color: #86a6b6;
+  font-size: 0.88rem;
+}
+
+.gallery-thumbs {
+  padding: 0 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  gap: 12px;
+}
+
+.gallery-thumb {
+  padding: 0;
+  border: 1px solid rgba(68, 104, 122, 0.9);
+  border-radius: 14px;
+  overflow: hidden;
+  background: rgba(4, 18, 28, 0.72);
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.gallery-thumb:hover {
+  transform: translateY(-2px);
+  border-color: rgba(116, 219, 248, 0.72);
+}
+
+.gallery-thumb.active {
+  border-color: #18d4ff;
+  box-shadow: 0 0 0 1px rgba(24, 212, 255, 0.4);
+}
+
+.gallery-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
 .diagram-card,
 .arch-card,
 .text-block,
@@ -1053,6 +1176,28 @@ h2 {
   .hire-btn {
     padding: 0.65rem 1rem;
     font-size: 0.82rem;
+  }
+
+  .gallery-frame,
+  .gallery-frame img {
+    min-height: 280px;
+  }
+
+  .gallery-meta {
+    flex-direction: column;
+  }
+
+  .gallery-nav {
+    width: 42px;
+    height: 42px;
+  }
+
+  .gallery-nav.prev {
+    left: 12px;
+  }
+
+  .gallery-nav.next {
+    right: 12px;
   }
 
   .cv-btn {
