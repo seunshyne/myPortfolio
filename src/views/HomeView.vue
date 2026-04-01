@@ -51,7 +51,7 @@ jobs:
           <p class="stack-icon">FE</p>
           <h3>Frontend Development</h3>
           <p>
-            Developing responsive user interfaces using Vue.js, JavaScript, HTML, and modern CSS practices.
+            Developing responsive user interfaces using React, Vue.js, JavaScript, HTML, and modern CSS practices.
           </p>
         </article>
         <article class="stack-card">

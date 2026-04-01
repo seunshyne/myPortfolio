@@ -5,7 +5,7 @@
       <h2>Building Reliable Web Applications</h2>
       <p class="projects-sub">
         I am a Full Stack Software Engineer focused on building secure and
-        scalable web applications using Vue.js, Laravel, and modern cloud
+        scalable web applications using  React, Vue.js, Laravel, and modern cloud
         infrastructure. I enjoy designing systems that are structured,
         maintainable, and ready for production deployment.
       </p>
@@ -17,7 +17,7 @@
           <h4>Full Stack Development</h4>
           <p>
             I build complete web applications from frontend interfaces to
-            backend APIs using Vue.js and Laravel, ensuring smooth communication
+            backend APIs using React, Vue.js and Laravel, ensuring smooth communication
             between systems.
           </p>
         </div>
